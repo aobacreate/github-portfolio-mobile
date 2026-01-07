@@ -79,17 +79,22 @@ a:hover { text-decoration: underline; }
   line-height: var(--line-height-body);
 }
 
-.prose ul,
-.prose ol {
-  padding-left: 1.25rem;
+.prose ul {
+  list-style: none;    
+  padding-left: 0;
 }
 
-.prose li {
+.prose ul > li {
+  position: relative;
+  padding-left: 1rem; 
   margin: 0.4rem 0;
 }
 
-.prose ul li::marker {
-  content: "\00A0・";
+.prose ul > li::before {
+  content: "・";
+  position: absolute;
+  left: 0.15rem;
+  top: 0;
 }
 
 .prose h1 {
