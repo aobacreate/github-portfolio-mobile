@@ -29,6 +29,10 @@ export const works: Work[] = [
   {
     slug: "github-portfolio-mobile",
     title: "Github Portfolio Mobile",
+  },
+  {
+    slug: "alohagoodies",
+    title: "Aloha Goodies",
   } 
 ];
 
