@@ -33,6 +33,10 @@ export const works: Work[] = [
   {
     slug: "alohagoodies",
     title: "Aloha Goodies",
+  }, 
+  {
+    slug: "alohagoodies-wordpress-twentytwentyone",
+    title: "Aloha Goodies (Wordpress/TT1)",
   } 
 ];
 
