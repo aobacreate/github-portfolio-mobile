@@ -19,7 +19,11 @@ const notoSansJP = Noto_Sans_JP({
 
 export const metadata: Metadata = {
   title: "Works | Aoba Create",
-  description: "Aoba Create の制作実績一覧",
+  description:
+  "Aoba Create（aobacreate.net）の制作実績一覧。Next.js や WordPress を用い、デザイン設計からコーディングまで一貫して制作したWebサイトや個人制作のポートフォリオを紹介しています。",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
