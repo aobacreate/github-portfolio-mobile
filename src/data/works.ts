@@ -41,6 +41,10 @@ export const works: Work[] = [
   {
     slug: "aobacreate-blog-tt3",
     title: "Aoba Create (Wordpress/TT3)",
+  }, 
+  {
+    slug: "kyoto-restaurant-tt1",
+    title: "Kyoto Restaurant (Wordpress/TT1)",
   } 
 ];
 
